@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hungry Head Restaurant in Varanasi RC - regional comfort food, wood-fired flavours, and warm hospitality."
+    />
+    <title>Hungry Head | Varanasi RC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <a
+          class="brand"
+          href="#home"
+          data-tab="home"
+          aria-label="Hungry Head home"
+        >
+          <span class="brand-mark">HH</span>
+          <span><strong>Hungry Head</strong><small>Varanasi</small></span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+        <nav class="main-nav" aria-label="Main navigation">
+          <button class="nav-link active" data-tab-target="home">Home</button>
+          <button class="nav-link" data-tab-target="menu">Menu</button>
+          <button class="nav-link" data-tab-target="story">Our Story</button>
+          <button class="nav-link" data-tab-target="gallery">Gallery</button>
+          <button class="nav-link" data-tab-target="contact">Contact</button>
+        </nav>
+      </header>
+
+      <main>
+        <section
+          class="tab-panel active"
+          id="home"
+          aria-labelledby="home-title"
+        >
+          <div class="hero-copy reveal">
+            <p class="eyebrow">
+              <span></span> Slow food · bright mood · Varanasi
+            </p>
+            <h1 id="home-title">Come hungry.<br /><em>Leave glowing.</em></h1>
+            <p class="hero-description">
+              A lively neighbourhood kitchen serving soulful Indian plates,
+              smoky grills, and the kind of chai that turns a quick stop into an
+              evening.
+            </p>
+            <div class="hero-actions">
+              <button class="button button-dark" data-tab-target="menu">
+                Explore our menu <span>→</span></button
+              ><button class="text-button" data-tab-target="contact">
+                Find your table <span>↗</span>
+              </button>
+            </div>
+            <div class="hero-note">
+              <span class="avatar-stack"><i>R</i><i>A</i><i>K</i></span
+              ><span
+                ><strong>4.9 / 5</strong><br /><small
+                  >Loved by 2,000+ diners</small
+                ></span
+              >
+            </div>
+          </div>
+          <div class="hero-visual reveal delay-one">
+            <div class="sun-disc"></div>
+            <div class="hero-image"></div>
+            <div class="floating-card">
+              <span class="card-icon">✦</span
+              ><span
+                ><strong>Today's special</strong
+                ><small>Ghee roast paneer · ₹395</small></span
+              ><span class="arrow-circle">↗</span>
+            </div>
+            <span class="hero-stamp">Est.<br /><b>2019</b></span>
+          </div>
+          <div class="hero-strip">
+            <span>Open today <b>11:00 AM — 11:00 PM</b></span
+            ><span class="strip-dot">●</span><span>Near RC, Varanasi</span
+            ><span class="strip-doodle">✳</span>
+          </div>
+        </section>
+
+        <section class="tab-panel" id="menu" aria-labelledby="menu-title">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow"><span></span> Made for sharing</p>
+              <h2 id="menu-title">
+                A little bit of<br /><em>everything good.</em>
+              </h2>
+            </div>
+            <p>
+              Our menu follows the seasons, the market, and whatever our kitchen
+              is excited about today.
+            </p>
+          </div>
+          <div class="menu-grid">
+            <article class="menu-card featured reveal">
+              <div class="food-photo food-one"></div>
+              <div class="menu-card-copy">
+                <span class="tag">Chef's pick</span>
+                <h3>Charred paneer tikka</h3>
+                <p>Black garlic, smoked chilli, mint chutney</p>
+                <strong>₹395</strong>
+              </div>
+            </article>
+            <article class="menu-card reveal delay-one">
+              <div class="food-photo food-two"></div>
+              <div class="menu-card-copy">
+                <span class="tag">Comfort bowl</span>
+                <h3>Banarasi thali</h3>
+                <p>Five seasonal bites, dal, rice, roti</p>
+                <strong>₹525</strong>
+              </div>
+            </article>
+            <article class="menu-card reveal delay-two">
+              <div class="food-photo food-three"></div>
+              <div class="menu-card-copy">
+                <span class="tag">Sweet finish</span>
+                <h3>Kesar malai toast</h3>
+                <p>Cardamom cream, pistachio, rose</p>
+                <strong>₹245</strong>
+              </div>
+            </article>
+            <article class="menu-card reveal">
+              <div class="food-photo food-four"></div>
+              <div class="menu-card-copy">
+                <span class="tag">Street favourite</span>
+                <h3>Masala dosa</h3>
+                <p>Crisp dosa, potato masala, coconut chutney</p>
+                <strong>₹285</strong>
+              </div>
+            </article>
+            <article class="menu-card reveal delay-one">
+              <div class="food-photo food-five"></div>
+              <div class="menu-card-copy">
+                <span class="tag">From the tandoor</span>
+                <h3>Tandoori mushroom</h3>
+                <p>Spiced mushrooms, coriander, cooling raita</p>
+                <strong>₹365</strong>
+              </div>
+            </article>
+            <article class="menu-card reveal delay-two">
+              <div class="food-photo food-six"></div>
+              <div class="menu-card-copy">
+                <span class="tag">Fresh & bright</span>
+                <h3>Mango burrata salad</h3>
+                <p>Seasonal mango, burrata, basil oil, toasted seeds</p>
+                <strong>₹425</strong>
+              </div>
+            </article>
+            <article class="menu-card more-dish">
+              <div class="food-photo food-seven"></div>
+              <div class="menu-card-copy">
+                <span class="tag">House special</span>
+                <h3>Palak corn kebab</h3>
+                <p>Spinach, sweet corn, cheese, mint chutney</p>
+                <strong>₹325</strong>
+              </div>
+            </article>
+            <article class="menu-card more-dish">
+              <div class="food-photo food-eight"></div>
+              <div class="menu-card-copy">
+                <span class="tag">Bowl food</span>
+                <h3>Dal makhani</h3>
+                <p>Slow-cooked black lentils, butter, garlic naan</p>
+                <strong>₹345</strong>
+              </div>
+            </article>
+            <article class="menu-card more-dish">
+              <div class="food-photo food-nine"></div>
+              <div class="menu-card-copy">
+                <span class="tag">Crispy bite</span>
+                <h3>Chilli lotus stem</h3>
+                <p>Crunchy lotus stem, peppers, sesame glaze</p>
+                <strong>₹295</strong>
+              </div>
+            </article>
+            <article class="menu-card more-dish">
+              <div class="food-photo food-ten"></div>
+              <div class="menu-card-copy">
+                <span class="tag">Classic</span>
+                <h3>Butter naan basket</h3>
+                <p>Butter naan, garlic naan, chilli cheese naan</p>
+                <strong>₹225</strong>
+              </div>
+            </article>
+            <article class="menu-card more-dish">
+              <div class="food-photo food-eleven"></div>
+              <div class="menu-card-copy">
+                <span class="tag">Kitchen favourite</span>
+                <h3>Rajma chawal</h3>
+                <p>Punjabi kidney beans, steamed rice, achar</p>
+                <strong>₹315</strong>
+              </div>
+            </article>
+            <article class="menu-card more-dish">
+              <div class="food-photo food-twelve"></div>
+              <div class="menu-card-copy">
+                <span class="tag">Light plate</span>
+                <h3>Avocado chaat</h3>
+                <p>Avocado, potato, pomegranate, tangy chutneys</p>
+                <strong>₹365</strong>
+              </div>
+            </article>
+            <article class="menu-card more-dish">
+              <div class="food-photo food-thirteen"></div>
+              <div class="menu-card-copy">
+                <span class="tag">For sharing</span>
+                <h3>Truffle cheese fries</h3>
+                <p>Skin-on fries, truffle oil, aged cheese</p>
+                <strong>₹385</strong>
+              </div>
+            </article>
+            <article class="menu-card more-dish">
+              <div class="food-photo food-fourteen"></div>
+              <div class="menu-card-copy">
+                <span class="tag">Sweet finish</span>
+                <h3>Gulab jamun sundae</h3>
+                <p>Warm gulab jamun, vanilla ice cream, nuts</p>
+                <strong>₹265</strong>
+              </div>
+            </article>
+            <article class="menu-card more-dish">
+              <div class="food-photo food-fifteen"></div>
+              <div class="menu-card-copy">
+                <span class="tag">Cool sip</span>
+                <h3>Rose basil cooler</h3>
+                <p>Rose, basil seeds, lime, sparkling water</p>
+                <strong>₹185</strong>
+              </div>
+            </article>
+            <article class="menu-card more-dish">
+              <div class="food-photo food-sixteen"></div>
+              <div class="menu-card-copy">
+                <span class="tag">Chai time</span>
+                <h3>Masala chai pot</h3>
+                <p>Fresh ginger, cardamom, cinnamon, jaggery</p>
+                <strong>₹155</strong>
+              </div>
+            </article>
+          </div>
+          <div class="menu-footer">
+            <span>Vegetarian kitchen · Vegan options available</span
+            ><button
+              class="button button-outline"
+              id="more-dishes-button"
+              type="button"
+            >
+              More dishes <span>↓</span></button
+            ><button class="button button-outline" data-tab-target="contact">
+              Plan a feast <span>→</span>
+            </button>
+          </div>
+        </section>
+
+        <section
+          class="tab-panel story-panel"
+          id="story"
+          aria-labelledby="story-title"
+        >
+          <div class="story-image reveal"></div>
+          <div class="story-copy reveal delay-one">
+            <p class="eyebrow"><span></span> The Hungry Head story</p>
+            <h2 id="story-title">
+              Built on good food<br />and <em>long evenings.</em>
+            </h2>
+            <p>
+              Hungry Head began with a simple idea: make a place that feels like
+              the best table at home. Our kitchen brings together recipes from
+              across India with the energy of Varanasi's lanes.
+            </p>
+            <p>
+              Come for the food, stay for the stories. Every plate is made to be
+              passed around.
+            </p>
+            <div class="signature">
+              With warmth,<br /><strong>The Hungry Head family</strong>
+            </div>
+          </div>
+          <div class="story-stats">
+            <div>
+              <b>06</b><span>Years of<br />flavour</span>
+            </div>
+            <div>
+              <b>35+</b><span>Plates on<br />the menu</span>
+            </div>
+            <div>
+              <b>01</b><span>Very happy<br />kitchen</span>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="tab-panel gallery-panel"
+          id="gallery"
+          aria-labelledby="gallery-title"
+        >
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow"><span></span> Inside the head</p>
+              <h2 id="gallery-title">
+                Good food looks<br /><em>better together.</em>
+              </h2>
+            </div>
+            <p>
+              Find us where the lights are warm, the tables are full, and
+              someone is always ordering one more thing.
+            </p>
+          </div>
+          <div class="gallery-grid">
+            <div class="gallery-photo gallery-a reveal"></div>
+            <div class="gallery-photo gallery-b reveal delay-one"></div>
+            <div class="gallery-photo gallery-c reveal delay-two"></div>
+            <div class="gallery-photo gallery-d reveal delay-three"></div>
+          </div>
+        </section>
+
+        <section
+          class="tab-panel contact-panel"
+          id="contact"
+          aria-labelledby="contact-title"
+        >
+          <div class="contact-copy reveal">
+            <p class="eyebrow"><span></span> Come say hello</p>
+            <h2 id="contact-title">Your table is<br /><em>waiting.</em></h2>
+            <p>
+              For reservations, celebrations, or just a good dinner plan, reach
+              out to us. We would love to have you.
+            </p>
+            <div class="contact-details">
+              <a href="tel:+919876543210"
+                ><span>☎</span>
+                <div>
+                  <small>Call us</small><strong>+91 98765 43210</strong>
+                </div></a
+              ><a href="mailto:hello@hungryhead.in"
+                ><span>✉</span>
+                <div>
+                  <small>Write to us</small><strong>hello@hungryhead.in</strong>
+                </div></a
+              >
+              <div>
+                <span>⌖</span>
+                <div>
+                  <small>Find us</small
+                  ><strong>RC Road, Varanasi, Uttar Pradesh</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <form
+            class="reservation-form contact-sheet reveal delay-one"
+            id="feedback-form"
+          >
+            <p class="form-kicker">Hungry Head Restaurant</p>
+            <h3>We would love to<br /><em>hear from you.</em></h3>
+            <div class="sheet-contact-info">
+              <a href="tel:+919876543210"
+                ><span>☎</span><strong>+91 98765 43210</strong></a
+              >
+              <a href="mailto:hello@hungryhead.in"
+                ><span>✉</span><strong>hello@hungryhead.in</strong></a
+              >
+              <p>
+                <span>⌖</span><strong>RC Road, Varanasi, Uttar Pradesh</strong>
+              </p>
+            </div>
+            <label
+              >Name<input
+                name="name"
+                type="text"
+                placeholder="Your name"
+                required
+            /></label>
+            <label
+              >Feedback<textarea
+                name="feedback"
+                rows="3"
+                placeholder="Tell us about your experience"
+                required
+              ></textarea></label
+            ><button class="button button-dark" type="submit">
+              Send feedback <span>→</span>
+            </button>
+            <p class="form-status" role="status"></p>
+          </form>
+        </section>
+      </main>
+      <footer>
+        <span>© 2026 Hungry Head Restaurant</span
+        ><span>Made with appetite in Varanasi RC</span
+        ><span
+          ><a href="https://www.instagram.com/" target="_blank" rel="noreferrer"
+            >Instagram ↗</a
+          ></span
+        >
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
